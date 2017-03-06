@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E59924E1E6CE29E003372D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E59924D1E6CE29E003372D6 /* main.m */; };
+		9E5992511E6CE29E003372D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5992501E6CE29E003372D6 /* AppDelegate.m */; };
+		9E5992541E6CE29E003372D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5992531E6CE29E003372D6 /* ViewController.m */; };
+		9E5992571E6CE29E003372D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5992551E6CE29E003372D6 /* Main.storyboard */; };
+		9E5992591E6CE29E003372D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5992581E6CE29E003372D6 /* Assets.xcassets */; };
+		9E59925C1E6CE29E003372D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E59925A1E6CE29E003372D6 /* LaunchScreen.storyboard */; };
+		9E5992671E6CE29E003372D6 /* STPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5992661E6CE29E003372D6 /* STPopTests.m */; };
+		9E5992721E6CE29E003372D6 /* STPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5992711E6CE29E003372D6 /* STPopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E5992631E6CE29E003372D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E5992411E6CE29E003372D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5992481E6CE29E003372D6;
+			remoteInfo = STPop;
+		};
+		9E59926E1E6CE29E003372D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E5992411E6CE29E003372D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5992481E6CE29E003372D6;
+			remoteInfo = STPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E5992491E6CE29E003372D6 /* STPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E59924D1E6CE29E003372D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E59924F1E6CE29E003372D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E5992501E6CE29E003372D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E5992521E6CE29E003372D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E5992531E6CE29E003372D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E5992561E6CE29E003372D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E5992581E6CE29E003372D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E59925B1E6CE29E003372D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E59925D1E6CE29E003372D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5992621E6CE29E003372D6 /* STPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5992661E6CE29E003372D6 /* STPopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPopTests.m; sourceTree = "<group>"; };
+		9E5992681E6CE29E003372D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E59926D1E6CE29E003372D6 /* STPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5992711E6CE29E003372D6 /* STPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPopUITests.m; sourceTree = "<group>"; };
+		9E5992731E6CE29E003372D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E5992461E6CE29E003372D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E59925F1E6CE29E003372D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E59926A1E6CE29E003372D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E5992401E6CE29E003372D6 = {
+			isa = PBXGroup;
+			children = (
+				9E59924B1E6CE29E003372D6 /* STPop */,
+				9E5992651E6CE29E003372D6 /* STPopTests */,
+				9E5992701E6CE29E003372D6 /* STPopUITests */,
+				9E59924A1E6CE29E003372D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E59924A1E6CE29E003372D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E5992491E6CE29E003372D6 /* STPop.app */,
+				9E5992621E6CE29E003372D6 /* STPopTests.xctest */,
+				9E59926D1E6CE29E003372D6 /* STPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E59924B1E6CE29E003372D6 /* STPop */ = {
+			isa = PBXGroup;
+			children = (
+				9E59924F1E6CE29E003372D6 /* AppDelegate.h */,
+				9E5992501E6CE29E003372D6 /* AppDelegate.m */,
+				9E5992521E6CE29E003372D6 /* ViewController.h */,
+				9E5992531E6CE29E003372D6 /* ViewController.m */,
+				9E5992551E6CE29E003372D6 /* Main.storyboard */,
+				9E5992581E6CE29E003372D6 /* Assets.xcassets */,
+				9E59925A1E6CE29E003372D6 /* LaunchScreen.storyboard */,
+				9E59925D1E6CE29E003372D6 /* Info.plist */,
+				9E59924C1E6CE29E003372D6 /* Supporting Files */,
+			);
+			path = STPop;
+			sourceTree = "<group>";
+		};
+		9E59924C1E6CE29E003372D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E59924D1E6CE29E003372D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E5992651E6CE29E003372D6 /* STPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E5992661E6CE29E003372D6 /* STPopTests.m */,
+				9E5992681E6CE29E003372D6 /* Info.plist */,
+			);
+			path = STPopTests;
+			sourceTree = "<group>";
+		};
+		9E5992701E6CE29E003372D6 /* STPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E5992711E6CE29E003372D6 /* STPopUITests.m */,
+				9E5992731E6CE29E003372D6 /* Info.plist */,
+			);
+			path = STPopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E5992481E6CE29E003372D6 /* STPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5992761E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPop" */;
+			buildPhases = (
+				9E5992451E6CE29E003372D6 /* Sources */,
+				9E5992461E6CE29E003372D6 /* Frameworks */,
+				9E5992471E6CE29E003372D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STPop;
+			productName = STPop;
+			productReference = 9E5992491E6CE29E003372D6 /* STPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E5992611E6CE29E003372D6 /* STPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5992791E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPopTests" */;
+			buildPhases = (
+				9E59925E1E6CE29E003372D6 /* Sources */,
+				9E59925F1E6CE29E003372D6 /* Frameworks */,
+				9E5992601E6CE29E003372D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E5992641E6CE29E003372D6 /* PBXTargetDependency */,
+			);
+			name = STPopTests;
+			productName = STPopTests;
+			productReference = 9E5992621E6CE29E003372D6 /* STPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E59926C1E6CE29E003372D6 /* STPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E59927C1E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPopUITests" */;
+			buildPhases = (
+				9E5992691E6CE29E003372D6 /* Sources */,
+				9E59926A1E6CE29E003372D6 /* Frameworks */,
+				9E59926B1E6CE29E003372D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E59926F1E6CE29E003372D6 /* PBXTargetDependency */,
+			);
+			name = STPopUITests;
+			productName = STPopUITests;
+			productReference = 9E59926D1E6CE29E003372D6 /* STPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E5992411E6CE29E003372D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = STYue;
+				TargetAttributes = {
+					9E5992481E6CE29E003372D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+					};
+					9E5992611E6CE29E003372D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E5992481E6CE29E003372D6;
+					};
+					9E59926C1E6CE29E003372D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E5992481E6CE29E003372D6;
+					};
+				};
+			};
+			buildConfigurationList = 9E5992441E6CE29E003372D6 /* Build configuration list for PBXProject "STPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E5992401E6CE29E003372D6;
+			productRefGroup = 9E59924A1E6CE29E003372D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5992481E6CE29E003372D6 /* STPop */,
+				9E5992611E6CE29E003372D6 /* STPopTests */,
+				9E59926C1E6CE29E003372D6 /* STPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5992471E6CE29E003372D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E59925C1E6CE29E003372D6 /* LaunchScreen.storyboard in Resources */,
+				9E5992591E6CE29E003372D6 /* Assets.xcassets in Resources */,
+				9E5992571E6CE29E003372D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5992601E6CE29E003372D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E59926B1E6CE29E003372D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E5992451E6CE29E003372D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5992541E6CE29E003372D6 /* ViewController.m in Sources */,
+				9E5992511E6CE29E003372D6 /* AppDelegate.m in Sources */,
+				9E59924E1E6CE29E003372D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E59925E1E6CE29E003372D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5992671E6CE29E003372D6 /* STPopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5992691E6CE29E003372D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5992721E6CE29E003372D6 /* STPopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E5992641E6CE29E003372D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E5992481E6CE29E003372D6 /* STPop */;
+			targetProxy = 9E5992631E6CE29E003372D6 /* PBXContainerItemProxy */;
+		};
+		9E59926F1E6CE29E003372D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E5992481E6CE29E003372D6 /* STPop */;
+			targetProxy = 9E59926E1E6CE29E003372D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E5992551E6CE29E003372D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5992561E6CE29E003372D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E59925A1E6CE29E003372D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E59925B1E6CE29E003372D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E5992741E6CE29E003372D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E5992751E6CE29E003372D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E5992771E6CE29E003372D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E5992781E6CE29E003372D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E59927A1E6CE29E003372D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STPop.app/STPop";
+			};
+			name = Debug;
+		};
+		9E59927B1E6CE29E003372D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STPop.app/STPop";
+			};
+			name = Release;
+		};
+		9E59927D1E6CE29E003372D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STPop;
+			};
+			name = Debug;
+		};
+		9E59927E1E6CE29E003372D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STPop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E5992441E6CE29E003372D6 /* Build configuration list for PBXProject "STPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5992741E6CE29E003372D6 /* Debug */,
+				9E5992751E6CE29E003372D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5992761E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5992771E6CE29E003372D6 /* Debug */,
+				9E5992781E6CE29E003372D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E5992791E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E59927A1E6CE29E003372D6 /* Debug */,
+				9E59927B1E6CE29E003372D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E59927C1E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E59927D1E6CE29E003372D6 /* Debug */,
+				9E59927E1E6CE29E003372D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E5992411E6CE29E003372D6 /* Project object */;
+}
