@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01F94CED3125000C6CD0A34A /* libPods-STPop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 822CA4355E85BB8A9E46E11D /* libPods-STPop.a */; };
 		9E59924E1E6CE29E003372D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E59924D1E6CE29E003372D6 /* main.m */; };
 		9E5992511E6CE29E003372D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5992501E6CE29E003372D6 /* AppDelegate.m */; };
 		9E5992541E6CE29E003372D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5992531E6CE29E003372D6 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		822CA4355E85BB8A9E46E11D /* libPods-STPop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STPop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5992491E6CE29E003372D6 /* STPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E59924D1E6CE29E003372D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E59924F1E6CE29E003372D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		9E59926D1E6CE29E003372D6 /* STPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5992711E6CE29E003372D6 /* STPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPopUITests.m; sourceTree = "<group>"; };
 		9E5992731E6CE29E003372D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB6B458BAE9E787F02380 /* Pods-STPop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STPop/Pods-STPop.debug.xcconfig"; sourceTree = "<group>"; };
+		DA620D0106995DB7BD2F5546 /* Pods-STPop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPop.release.xcconfig"; path = "Pods/Target Support Files/Pods-STPop/Pods-STPop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F94CED3125000C6CD0A34A /* libPods-STPop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39CE39410DEDED91FE7A729D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB6B458BAE9E787F02380 /* Pods-STPop.debug.xcconfig */,
+				DA620D0106995DB7BD2F5546 /* Pods-STPop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B400068D065B1DB0AF45E36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				822CA4355E85BB8A9E46E11D /* libPods-STPop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E5992401E6CE29E003372D6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				9E5992651E6CE29E003372D6 /* STPopTests */,
 				9E5992701E6CE29E003372D6 /* STPopUITests */,
 				9E59924A1E6CE29E003372D6 /* Products */,
+				39CE39410DEDED91FE7A729D /* Pods */,
+				6B400068D065B1DB0AF45E36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E5992761E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPop" */;
 			buildPhases = (
+				46DB913A45466BE809844A47 /* [CP] Check Pods Manifest.lock */,
 				9E5992451E6CE29E003372D6 /* Sources */,
 				9E5992461E6CE29E003372D6 /* Frameworks */,
 				9E5992471E6CE29E003372D6 /* Resources */,
+				2CD58F99CD589D7F40C8F214 /* [CP] Embed Pods Frameworks */,
+				29B7A438AE020F8151ECD738 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B7A438AE020F8151ECD738 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STPop/Pods-STPop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD58F99CD589D7F40C8F214 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STPop/Pods-STPop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46DB913A45466BE809844A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E5992451E6CE29E003372D6 /* Sources */ = {
@@ -423,6 +498,7 @@
 		};
 		9E5992771E6CE29E003372D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5FB6B458BAE9E787F02380 /* Pods-STPop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BKME25WU4F;
@@ -435,6 +511,7 @@
 		};
 		9E5992781E6CE29E003372D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA620D0106995DB7BD2F5546 /* Pods-STPop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BKME25WU4F;
