@@ -501,6 +501,7 @@
 			baseConfigurationReference = CB5FB6B458BAE9E787F02380 /* Pods-STPop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BKME25WU4F;
 				INFOPLIST_FILE = STPop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -514,6 +515,7 @@
 			baseConfigurationReference = DA620D0106995DB7BD2F5546 /* Pods-STPop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BKME25WU4F;
 				INFOPLIST_FILE = STPop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -591,6 +593,7 @@
 				9E5992781E6CE29E003372D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E5992791E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPopTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +602,7 @@
 				9E59927B1E6CE29E003372D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E59927C1E6CE29E003372D6 /* Build configuration list for PBXNativeTarget "STPopUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +611,7 @@
 				9E59927E1E6CE29E003372D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
