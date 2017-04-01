@@ -39,7 +39,7 @@
     layer.position        = self.view.center;
     [self.view.layer addSublayer:layer];
     
-    // loading Spring animation 
+    // loading Spring animation  ScaleXY
     POPSpringAnimation *anim = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
     anim.toValue             = [NSValue valueWithCGPoint:CGPointMake(3.f, 3.f)];
     anim.springSpeed         = 0.f;
